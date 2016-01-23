@@ -1,0 +1,12 @@
+@import 'toolkit/reset';
+@import 'ibm-colors';
+
+body {
+  background: #3C3C45;
+  color: #80C199;
+  font-family: helvetica;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
