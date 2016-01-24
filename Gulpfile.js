@@ -176,6 +176,6 @@ gulp.task('build', ['uglify', 'html', 'sass', 'images']);
 
 gulp.task('test', ['build']);
 
-gulp.task('watch', ['eslint:watch', 'uglify:watch', 'html:watch', 'sass:watch', 'images:watch']);
+gulp.task('watch', ['uglify:watch', 'html:watch', 'sass:watch', 'images:watch']);
 
 gulp.task('default', ['browser-sync', 'build', 'watch']);
